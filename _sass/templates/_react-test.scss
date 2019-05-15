@@ -1,0 +1,35 @@
+.react-test {
+
+	.todos-add {
+		input {
+			display: block;
+			float: left;
+			@include span-columns(5 of 10);
+		}
+
+		button {
+			display: block;
+			float: left;
+			@include span-columns(2 of 10);
+		}
+	}
+
+	.todos-list {
+		@include span-columns(5 of 10);
+		
+		li {
+			padding-left: 5px;
+		}
+
+		li:hover {
+			background: $success-color;
+			border-radius: 8px;
+		}
+	}
+
+	.todos-filter {
+		clear: both;
+		margin-top: $base-spacing / 2;
+	}
+
+}

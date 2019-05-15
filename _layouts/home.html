@@ -1,0 +1,39 @@
+---
+layout: default
+
+---
+
+  <div class="content-sidebar-wrap">
+
+    <main id="genesis-content" class="content">
+
+      {% if page.url != "/" %}
+
+        <header class="entry-header">
+
+          <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+
+        </header>
+
+      {% endif %}
+
+      <div class="entry-content" itemprop="text">
+
+        {{ content }}
+
+      </div>
+
+
+    </main>
+
+    {% if page.sidebar %}
+
+      <aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope="" itemtype="https://schema.org/WPSideBar" id="genesis-sidebar-primary">
+
+         {% include {{ page.sidebar }} %}
+
+      </aside>
+
+    {% endif %}
+
+  </div>

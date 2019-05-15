@@ -1,0 +1,158 @@
+// Product archive page
+.products .product {
+	text-align: center;
+}
+
+.woocommerce ul.products li.product h3 {
+	font-size: 1.2em;
+}
+
+.woocommerce ul.products li.product .price {
+	font-size: 1.1em;
+}
+
+.woocommerce ul.products li.product .button {
+	margin-top: $base-spacing / 4;
+}
+
+// Single product page
+.wc-tabs li a {
+	border-bottom: none;
+}
+
+// Cart page
+.woocommerce-cart {
+	#coupon_code {
+		padding: 0.62em 1em !important;
+		line-height: 1 !important;
+		width: 100%;
+		float: none;
+		margin-bottom: .5em;
+
+		@include media( $medium-screen-up ) {
+			float: left !important;
+			width: auto !important; 
+		}
+	}
+
+	input[name="apply_coupon"],
+	input[name="update_cart"] {
+		clear: both !important;
+		float: none !important;
+		width: 100% !important;
+
+		@include media( $medium-screen-up ) {
+			width: auto !important;
+		}
+	}
+
+	input[name="update_cart"] {
+		@include media( $medium-screen-up ) {
+			margin-top: 0 !important;
+		}
+	}
+}
+
+// Checkout page
+.woocommerce-checkout {
+	#ship-to-different-address {
+		label {
+			float: right !important;
+		}
+
+		input {
+			float: left !important;
+			margin-top: .5em;
+		}
+	}
+
+	.create-account {
+		margin-top: $base-spacing !important;
+		margin-bottom: $base-spacing !important;
+	}
+
+	a.about_paypal {
+		border-bottom: 0 !important;
+	}
+
+	#payment ul.payment_methods li label {
+		display: inline;
+	}
+}
+
+.shop_table {
+	thead th,
+	tbody th,
+	tbody td, {
+		border-bottom: none;
+	}
+
+	tfoot {
+		th,
+		td {
+			border-bottom: none;
+		}
+	}
+}
+
+// Login fields
+input[name="rememberme"] {
+	margin-left: .5em;
+}
+
+// Make WooCommerce buttons mirror sitewide buttons
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce .woocommerce-message .button,
+.woocommerce button.button,
+.woocommerce input.button {
+	$imp: !important;
+	background-color: $action-color $imp;
+	border-radius: $base-border-radius;
+	color: #fff $imp;
+	font-size: $base-font-size / 1.2 $imp;
+	text-transform: uppercase $imp;
+	padding: 0.75em 1em $imp;
+	text-decoration: none $imp;
+
+	&:hover,
+	&:focus {
+		background-color: lighten( $action-color, 15% ) $imp;
+		color: #fff $imp;
+	}
+
+	&:disabled {
+		cursor: not-allowed $imp;
+		opacity: 0.5 $imp;
+	}
+}
+
+.woocommerce .woocommerce-message .button {
+	font-size: 0.9em;
+}
+
+.woocommerce button.button.disabled {
+	padding: 0.75em 1em !important;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+	background-color: $action-color !important;
+	@include buttons( true );
+	border-radius: $base-border-radius;
+	&:hover,
+	&:focus {
+		background-color: lighten( $action-color, 15% ) !important;
+		@include buttons( true );
+		border-radius: $base-border-radius;
+	}
+}
+
+.wc-proceed-to-checkout .checkout-button,
+.wc-proceed-to-checkout .checkout-button {
+	display: block !important;
+	font-size: 1.25em !important;
+	padding: 1em !important;
+}

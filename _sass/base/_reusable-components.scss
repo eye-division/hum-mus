@@ -1,0 +1,1155 @@
+// Break out of outercontainer and fill the window horizontally
+@mixin edge-to-edge() {
+  // $margin-shift: $column + ($gutter);
+  $margin-shift: 10.3%; // 12 column grid
+  margin-left: -#{$margin-shift};
+  margin-right: -#{$margin-shift};
+  // @include omega;
+  // @include shift(-1);
+  // @include span-columns(14 of 12);
+}
+
+
+//************************************
+//
+// Badges
+//
+//************************************
+
+// $badge-font-size: 0.75em;
+$badge-font-size: 1em;
+$alert-color: #fff6bf !default;
+$error-color: #fbe3e4 !default;
+$notice-color: #e5edf8 !default;
+$success-color: #e6efc2 !default;
+
+@mixin badge( $color: $light-grey, $text-color: darken($color, 60%) ) {
+  background-color: $color;
+  border-radius: $badge-font-size;
+  color: $text-color;
+  display: inline-block;
+  font-size: $badge-font-size;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.4em 1.2em;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.badge {
+  @include badge;
+}
+
+.badge-alert {
+  @include badge($alert-color);
+}
+
+.badge-error {
+  @include badge($error-color);
+}
+
+.badge-notice {
+  @include badge($notice-color);
+}
+
+.badge-success {
+  @include badge($success-color);
+}
+
+
+//************************************
+//
+// Hero Section
+//
+//************************************
+
+.full-width-content .hero {
+  @include edge-to-edge;
+}
+
+.hero {
+  $hero-background-top: $white;
+  $hero-background-bottom: $white;
+  $hero-color: white;
+  $gradient-angle: 10deg;
+  $hero-image: '/assets/images/activity_strip.jpg';
+
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  background-color: $white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+
+  .hero-logo {
+    border-bottom: none;
+
+    img {
+      height: 4em;
+      width: auto;
+      margin-bottom: 1em;
+    }
+  }
+
+  .hero-inner {
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 3.5em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen-up) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        line-height: $base-line-height;
+        margin: 0 auto 3em auto;
+
+        @include media($large-screen-up) {
+          font-size: 1.1em;
+          max-width: 40%;
+        }
+      }
+    }
+  }
+}
+
+
+//************************************
+//
+// Parallax Section
+//
+//************************************
+
+$parallax-window-height: 100%;
+$parallax-background-height: $parallax-window-height * 2;
+
+.full-width-content .parallax-window {
+  @include edge-to-edge;
+}
+
+.parallax-window {
+  max-height: $parallax-window-height;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.parallax-static-content {
+  padding: 8em;
+  position: relative;
+  z-index: 9;
+}
+
+.parallax-background {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: beige;
+  height: $parallax-background-height;
+  left: 0;
+  position: absolute;
+  top: - $parallax-window-height / 3;
+  width: 100%;
+}
+
+
+//************************************
+//
+// Cards
+//
+//************************************
+
+.cards {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+}
+
+.card {
+  $card-border-color: $base-border-color;
+  $card-border: 1px solid $card-border-color;
+  $card-background: lighten($card-border-color, 10%);
+  $card-header-background: $card-background;
+  $card-hover-background: lighten($card-background, 5%);
+  $card-image-background: $light-grey;
+  $card-image-hover-background: lighten($card-image-background, 5%);
+  $card-margin: 1em;
+
+  @include flex-basis(15em);
+  @include flex-grow(1);
+  @include transition (all 0.2s ease-in-out);
+  background-color: $card-background;
+  border-radius: $base-border-radius * 2;
+  border: $card-border;
+  box-shadow: 0 2px 4px darken($base-background-color, 10%);
+  cursor: pointer;
+  margin: 0 $card-margin $base-spacing $card-margin;
+  position: relative;
+  text-align: center;
+
+  .card-image {
+    overflow: hidden;
+    max-height: 150px;
+
+    img {
+      @include transition (all 0.2s ease-in-out);
+      background: $card-image-background;
+      border-top-left-radius: $base-border-radius * 2;
+      border-top-right-radius: $base-border-radius * 2;
+      width: 100%;
+    }
+  }
+
+  .card-header {
+    @include transition (all 0.2s ease-in-out);
+    background-color: $card-header-background;
+    border-bottom: $card-border;
+    border-radius: $base-border-radius $base-border-radius 0 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: $base-line-height;
+    padding: ($base-spacing / 3) ($base-spacing / 2);
+  }
+
+  .card-copy {
+    font-size: 0.9em;
+    line-height: $base-line-height;
+    padding: ($base-spacing / 2) ($base-spacing / 2);
+
+    p {
+      margin: 0 0 ($base-spacing / 2);
+    }
+  }
+
+  &:focus,
+  &:hover {
+    background-color: $card-hover-background;
+
+    .card-image img {
+      background: $card-image-hover-background;
+    }
+
+    .card-header {
+      background-color: $card-hover-background;
+    }
+  }
+
+  &:active {
+    background-color: $card-background;
+
+    .card-header {
+      background-color: $card-background;
+    }
+  }
+}
+
+
+//************************************
+//
+// Pricing tables
+//
+//************************************
+
+.pricing-tables {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+}
+
+.pricing-table {
+  $card-border-color: $base-border-color;
+  $card-border: 1px solid $card-border-color;
+  $card-background: lighten($card-border-color, 10%);
+  $card-header-background: $blue;
+  $card-hover-background: lighten($card-background, 5%);
+  $card-image-background: $light-grey;
+  $card-image-hover-background: lighten($card-image-background, 5%);
+  $card-margin: 1em;
+
+  @include flex-basis(15em);
+  @include flex-grow(1);
+  @include transition (all 0.2s ease-in-out);
+  background-color: $card-background;
+  border-radius: $base-border-radius * 2;
+  border: $card-border;
+  box-shadow: 0 2px 4px darken($base-background-color, 10%);
+  cursor: pointer;
+  margin: 0 0 $base-spacing 0;
+  position: relative;
+  text-align: center;
+
+  @include media($medium-screen-up) {
+    margin: 0 $card-margin $base-spacing $card-margin;
+  }
+
+  .table-image {
+    overflow: hidden;
+    max-height: 150px;
+
+    img {
+      @include transition (all 0.2s ease-in-out);
+      background: $card-image-background;
+      border-top-left-radius: $base-border-radius * 2;
+      border-top-right-radius: $base-border-radius * 2;
+      width: 100%;
+    }
+  }
+
+  .table-header {
+    @include transition (all 0.2s ease-in-out);
+    background-color: $card-header-background;
+    color: white;
+    border-bottom: $card-border;
+    border-radius: $base-border-radius $base-border-radius 0 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: $base-line-height;
+    padding: ($base-spacing / 3) ($base-spacing / 2);
+
+    h3 {
+      font-size: 1.2em;
+      margin-bottom: 0;
+    }
+  }
+
+  .price {
+    color: $action-color;
+    .currency-symbol {
+      font-size: 1.5em;
+    }
+    .cost {
+      font-size: 3.2em;
+      font-weight: 900;
+    }
+    .period {
+      font-size: .8em;
+    }
+  }
+
+  .table-copy {
+    font-size: 0.9em;
+    line-height: $base-line-height;
+    padding: ($base-spacing / 2) ($base-spacing / 2);
+
+    p {
+      margin: 0 0 ($base-spacing / 2);
+    }
+
+    .features {
+      list-style-type: none;
+      li {
+        font-size: .8em;
+        margin-bottom: .6em;
+        padding-bottom: .6em;
+        border-bottom: 1px dotted $light-grey;
+        &:first-child {
+          margin-top: $base-spacing;
+        }
+        &:last-child {
+          margin-bottom: 0;
+          padding-bottom: 0;
+          border-bottom: 0;
+        }
+      }
+
+      strong {
+        // @include badge($bg-yellow);
+      }
+    }
+  }
+
+  &:focus,
+  &:hover {
+    background-color: $card-hover-background;
+
+    .table-image img {
+      background: $card-image-hover-background;
+    }
+
+    .table-header {
+      background-color: lighten($card-header-background, 7);
+    }
+  }
+
+  &:active {
+    background-color: $card-background;
+
+    .table-header {
+      background-color: $card-background;
+    }
+  }
+}
+
+
+//************************************
+//
+// Side Images
+//
+//************************************
+
+.side-image {
+  $side-image-background-top: #B5EBEB;
+  $side-image-background-bottom: #5DAC5D;
+  $side-image-content-background: $very-light-grey;
+  $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
+
+  background: $side-image-content-background;
+  margin-top: $base-spacing * 2;
+  &:last-child {
+    margin-bottom: $base-spacing * 2;
+  }
+
+  @include media($large-screen-up) {
+    display: table;
+    @include fill-parent;
+    table-layout: fixed;
+    $container-display-table: true !global;
+  }
+
+  .images-wrapper {
+    @include background(url('../images/side-images/celtic-knot-1.png'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
+    background-color: $side-image-background-top;
+    background-size: cover;
+    // border-bottom: $side-image-border;
+    display: block;
+    min-height: 12em;
+    padding: 3em;
+
+    @include media($large-screen-up) {
+      @include span-columns(4);
+      background-position: top center;
+      background-size: cover;
+      // border-right: $side-image-border;
+    }
+  }
+
+  .side-image-content {
+    @include span-columns(12);
+    padding: 1em 1em 4em 1em;
+    text-align: center;
+
+    @include media($large-screen-up) {
+      @include span-columns(8);
+      padding: 4em 4em 8em 4em;
+      text-align: left;
+    }
+
+    h1 {
+      margin-bottom: 0.9em;
+    }
+
+    h4 {
+      background: #BBB;
+      color: white;
+      display: inline-block;
+      font-size: 0.75em;
+      font-weight: 800;
+      margin-bottom: 1.3em;
+      padding: 3px 8px;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+      margin-bottom: 1.5em;
+    }
+
+  }
+
+  $container-display-table: false !global;
+}
+
+//************************************
+//
+// Icon bullets
+//
+//************************************
+
+.bullets {
+  $icon-bullet-size: 3.5em;
+
+  @include display(flex);
+  @include flex-wrap(wrap);
+  margin: $base-spacing*2 1em $base-spacing 1em;
+  overflow: auto;
+  padding: 0;
+
+  .bullet {
+    @include flex-basis(20em);
+    @include flex-grow(1);
+  }
+
+  .bullet-icon {
+    background: $action-color;
+    border-radius: 50%;
+    height: $icon-bullet-size;
+    padding: $icon-bullet-size / 4;
+    width: $icon-bullet-size;
+    margin: 0 auto;
+    @include media($medium-screen-up) {
+      float: left;
+    }
+  }
+
+  .bullet-content {
+    margin-bottom: $base-spacing * 2;
+    @include media($medium-screen-up) {
+      margin-left: $icon-bullet-size * 1.4;
+      padding-right: 2em;
+    }
+  }
+
+  h2 {
+    border-bottom: 1px solid transparentize($base-font-color, 0.8);
+    display: inline-block;
+    font-size: $icon-bullet-size / 2.5;
+    margin: 0 0 ($icon-bullet-size / 6) 0;
+    padding-top: $icon-bullet-size / 7;
+    text-align: center;
+    width: 100%;
+    @include media($medium-screen-up) {
+     text-align: left;
+    }
+  }
+
+  li {
+    list-style: none;
+  }
+
+  p {
+    color: $base-font-color;
+    line-height: $base-line-height;
+    text-align: center;
+    @include media($medium-screen-up) {
+     text-align: left;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.content ul.bullets {
+  padding-left: 0;
+}
+
+
+//************************************
+//
+// Normal tabs
+//
+//************************************
+
+.accordion-tabs {
+  $tab-border: 1px solid $base-border-color;
+  $tab-content-background: lighten($light-grey, 10);
+  $tab-active-background: $tab-content-background;
+  $tab-inactive-color: $base-background-color;
+  $tab-inactive-hover-color: darken($light-grey, 5);
+  $tab-mode: $medium-screen-up;
+
+  @include clearfix;
+  line-height: $base-line-height;
+  margin-bottom: $base-spacing;
+  padding: 0;
+
+  @include media(max-width $tab-mode) {
+    border-radius: $base-border-radius;
+    border: $tab-border;
+  }
+
+  .tab-header-and-content {
+    list-style: none;
+
+    @include media($tab-mode) {
+      display: inline;
+    }
+
+    &:first-child .tab-link {
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+
+      @include media(max-width $tab-mode) {
+        border-top: 0;
+      }
+    }
+
+    &:last-child .tab-link {
+      @include media(max-width $tab-mode) {
+        border-bottom-left-radius: $base-border-radius;
+        border-bottom-right-radius: $base-border-radius;
+      }
+    }
+  }
+
+  .tab-link {
+    background-color: $tab-inactive-color;
+    border-top: $tab-border;
+    border-bottom: 0;
+    color: $dark-grey;
+    display: block;
+    font-weight: 400;
+    padding: ($base-spacing/2) $gutter;
+    text-decoration: none;
+
+    @include media($tab-mode) {
+      display: inline-block;
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+      border-top: 0;
+    }
+
+    &:hover {
+      color: $action-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      background-color: $tab-active-background;
+
+      @include media($tab-mode) {
+        background-color: $tab-active-background;
+        border: $tab-border;
+        border-bottom-color: $tab-active-background;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  .tab-content {
+    background: $tab-content-background;
+    display: none;
+    padding: $base-spacing $gutter;
+    width: 100%;
+
+    @include media($tab-mode) {
+      border-bottom-left-radius: $base-border-radius;
+      border-bottom-right-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+      border: $tab-border;
+      float: left;
+    }
+  }
+}
+
+
+//************************************
+//
+// Minimal tabs
+//
+//************************************
+
+.accordion-tabs-minimal {
+  $tab-link-color: $dark-grey;
+  $tab-border: 1px solid $base-border-color;
+  $tab-active-background: $base-background-color;
+  $tab-inactive-color: none;
+  $tab-inactive-hover-color: silver;
+  $tab-mode: $medium-screen-up;
+
+  @include clearfix;
+  line-height: $base-line-height;
+  padding: 0;
+
+  li.tab-header-and-content {
+    list-style: none;
+
+    @include media($tab-mode) {
+      display: inline;
+    }
+  }
+
+  a.tab-link {
+    background-color: $tab-inactive-color;
+    border-top: $tab-border;
+    border-bottom: 0;
+    color: $tab-link-color;
+    display: block;
+    font-weight: 400;
+    padding: ($base-spacing / 2) $gutter;
+    text-decoration: none;
+
+    @include media($tab-mode) {
+      display: inline-block;
+      border-top: 0;
+    }
+
+    &:hover {
+      color: $action-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      border-bottom: 0;
+      background: $tab-active-background;
+
+      @include media($tab-mode) {
+        border: $tab-border;
+        border-bottom-color: $tab-active-background;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+    padding: $base-spacing $gutter;
+    width: 100%;
+
+    @include media($tab-mode) {
+      border-top: $tab-border;
+      float: left;
+    }
+  }
+}
+
+
+//************************************
+//
+// Vertical tabs
+//
+//************************************
+
+.vertical-tabs-container {
+  $tab-border-color: $base-border-color;
+  $tab-border: 1px solid $tab-border-color;
+  $tab-border-radius: $base-border-radius;
+  $tab-content-background: lighten($tab-border-color, 10%);
+  $tab-active-color: $tab-content-background;
+  $tab-inactive-color: $base-background-color;
+  $vertical-tabs-height: auto;
+  $vertical-tab-mode: $medium-screen-up;
+
+  @include clearfix;
+  border-radius: $tab-border-radius;
+  border: $tab-border;
+  margin-bottom: $base-spacing;
+  background: $tab-content-background;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: $action-color;
+    text-decoration: none;
+  }
+
+  .vertical-tabs {
+    display: none;
+
+    @include media($vertical-tab-mode) {
+      background-color: $tab-inactive-color;
+      display: inline;
+      float: left;
+      height: $vertical-tabs-height;
+      width: 20%;
+    }
+  }
+
+  .vertical-tab {
+    @include media($vertical-tab-mode) {
+      border-bottom: $tab-border;
+      display: block;
+      font-weight: 400;
+      margin-right: -1px;
+      padding: ($base-spacing / 2) ($gutter / 2);
+
+      &:hover {
+        border-bottom: $tab-border;
+      }
+
+      &.is-active {
+        background-color: $tab-content-background;
+        margin-right: -1px;
+      }
+    }
+  }
+
+  a.vertical-tab-accordion-heading,
+  a.vertical-tab {
+    color: $dark-grey;
+
+    &:hover {
+      color: $action-color;
+    }
+  }
+
+  .vertical-tab:focus {
+    outline: none;
+  }
+
+  .vertical-tab-content-container {
+    display: block;
+    margin: 0 auto;
+
+    & a:focus {
+      outline: none;
+    }
+
+    @include media($vertical-tab-mode) {
+      @include size(80% $vertical-tabs-height);
+      background-color: $tab-content-background;
+      display: inline-block;
+    }
+  }
+
+  .vertical-tab-content {
+    background-color: $tab-content-background;
+    padding: $base-spacing $gutter;
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+    }
+
+    @include media($vertical-tab-mode) {
+      border: none;
+      display: none;
+    }
+  }
+
+  .vertical-tab-accordion-heading {
+    background-color: $tab-inactive-color;
+    border-top: $tab-border;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    padding: $base-spacing / 2 $gutter / 2;
+
+    &:focus,
+    &:hover {
+      color: $action-color;
+    }
+
+    &:first-child {
+      border-top: none;
+    }
+
+    &.is-active {
+      background: $tab-active-color;
+      border-bottom: none;
+    }
+
+    @include media($vertical-tab-mode) {
+      display: none;
+    }
+  }
+}
+
+
+//************************************
+//
+// FAQs
+//
+//************************************
+
+.faq {
+  $faq-gutter: 1.4em;
+  $faq-bullet-size: 3.5em;
+  $faq-image-padding: 0.7em;
+  $faq-image-width: 4em;
+  $faq-color: $base-font-color;
+  $faq-background: lighten($action-color, 15%);
+  $faq-detail-color: transparentize($faq-color, 0.5);
+  $faq-image-vert-alignment: top;
+
+  border-bottom: 1px solid transparentize($faq-color, 0.9);
+  display: table;
+  margin-bottom: $base-spacing;
+  padding-bottom: 1em;
+  width: 100%;
+  text-align: left;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .faq-image,
+  .faq-content {
+    display: table-cell;
+    vertical-align: $faq-image-vert-alignment;
+  }
+
+  .faq-image {
+    padding-bottom: $base-spacing;
+    display: block;
+
+    @include media( $medium-screen-up ) {
+      padding-right: $faq-gutter;
+      display: table-cell;
+    }
+
+    > img {
+      display: block;
+      max-width: none;
+      background: $action-color;
+      border-radius: 50%;
+      height: $faq-bullet-size;
+      padding: $faq-bullet-size / 4;
+      width: $faq-bullet-size;
+      margin: 0 auto;
+    }
+
+    .faq-reverse-order & {
+      padding-right: 0;
+      padding-left: 10px;
+    }
+  }
+
+  .faq-content {
+    width: 100%;
+    clear: both;
+    display: block;
+
+    @include media( $medium-screen-up ) {
+      clear: none;
+      display: table-cell;
+    }
+
+    h1 {
+      font-size: 1em;
+      margin: 0 0 0.5em 0;
+      text-align: left;
+    }
+
+    p {
+      line-height: $base-line-height;
+      margin-bottom: 0.5em;
+    }
+
+    p.faq-detail {
+      color: $faq-detail-color;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  }
+}
+
+
+//************************************
+//
+// Modals
+//
+//************************************
+
+.modal {
+  $modal-padding: 3em;
+  $modal-background: $base-background-color;
+  $modal-close-color: $light-grey;
+  $modal-image-height: 135px;
+  $modal-image-width: $modal-image-height;
+  $modal-trigger-image-width: 300px;
+
+  label {
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+
+  label img {
+    border-radius: $modal-trigger-image-width / 2;
+    display: block;
+    max-width: $modal-trigger-image-width;
+  }
+
+  .modal-state {
+    display: none;
+  }
+
+  .modal-trigger {
+    @include buttons;
+    padding: 0.8em 1em;
+  }
+
+  .modal-fade-screen { // overlay
+    @include transition(opacity 0.25s ease);
+    @include position(fixed, 0px 0px 0px 0px);
+    background: rgba(0,0,0, 0.85);
+    opacity: 0;
+    padding-top: 0.6em;
+    text-align: left;
+    visibility: hidden;
+    z-index: 99999999999;
+
+    @include media($large-screen-up) {
+      padding-top: 10em;
+    }
+
+    .modal-bg {
+      @include position(absolute, 0px 0px 0px 0px);
+      cursor: pointer;
+    }
+  }
+
+  .modal-close {
+    @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
+    @include size(1.5em);
+    background: $modal-background;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+      @include position(absolute, 3px 3px 0 50%);
+      @include transform(rotate(45deg));
+      @include size(0.15em 1.5em);
+      background: $modal-close-color;
+      content: '';
+      display: block;
+      margin: -3px 0 0 -1px;
+    }
+
+    &:hover:after,
+    &:hover:before {
+      background: darken($modal-close-color, 10%);
+    }
+
+    &:before {
+      @include transform(rotate(-45deg));
+    }
+  }
+
+  .modal-inner {
+    @include transition(opacity 0.25s ease);
+    background: $modal-background;
+    border-radius: $base-border-radius;
+    margin-top: 0;
+    margin: auto;
+    max-height: 95%;
+    overflow: auto;
+    padding: $modal-padding / 2;
+    position: relative;
+    width: 95%;
+
+    @include media($medium-screen-up) {
+      max-height: 70%;
+      padding: $modal-padding;
+      width: 60%;
+    }
+
+    @include media($large-screen-up) {
+      width: 50%;
+    }
+
+    h1 {
+      color: $base-font-color;
+      margin-bottom: 0 0 0.6em 0;
+      text-align: left;
+      text-transform: capitalize;
+    }
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+    }
+
+    .modal-intro {
+      font-weight: 800;
+    }
+
+    .modal-content {
+      color: $base-font-color;
+
+      @include media($medium-screen-up) {
+        @include columns(2 8em);
+      }
+    }
+
+    a.cta {
+      color: white;
+      display: inline-block;
+      margin-right: 0.5em;
+      margin-top: 1em;
+
+      &:last-child {
+        padding: 0 2em;
+      }
+    }
+  }
+
+  .modal-state:checked + .modal-fade-screen {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-state:checked + .modal-fade-screen .modal-inner {
+    top: 0.5em;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+
+//************************************
+//
+// Expanders
+//
+//************************************
+
+.expander {
+  $expander-arrow-width: 0.7em;
+  $expander-toggle-size: 1em;
+  $expander-toggle-arrow-size: $expander-toggle-size;
+  $expander-toggle-margin: 1em;
+
+  width: 60%;
+  margin-bottom: $base-spacing * 2;
+
+  .expander-trigger {
+    @include user-select(none);
+    border-bottom: 1px solid $light-grey;
+    color: $action-color;
+    cursor: pointer;
+    display: block;
+    font-size: $expander-toggle-size;
+    margin-bottom: $expander-toggle-size;
+    padding-bottom: $expander-toggle-size / 4;
+    text-decoration: none;
+
+    &:before {
+      font-size: $expander-arrow-width;
+      content: "\25BC";
+      margin-right: 0.5em;
+    }
+
+    &:hover {
+      border-bottom: 1px solid $light-grey;
+    }
+  }
+
+  .expander-content p {
+    color: $base-font-color;
+    line-height: $base-line-height;
+  }
+
+  .expander-hidden {
+    &:before {
+      font-size: $expander-arrow-width;
+      content: "\25BA";
+    }
+  }
+
+  .expander-hidden + .expander-content {
+    display: none;
+  }
+}

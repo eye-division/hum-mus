@@ -1,0 +1,57 @@
+<ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to content</a></li>
+</ul>
+<header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader">
+    <div class="wrap">
+      <div class="title-area">
+        <h1 class="site-title" itemprop="headline"><a href="{% if page.url contains "pt/" %}/pt/home-2{% else %}/{% endif %}"><img src="/css/images/logo.png" alt="Healthy Urban Mobility Homepage" width="120" height="120"><span>Healthy Urban Mobility</span></a>
+        </h1>
+      </div>
+      <div class="widget-area header-widget-area">
+        <section id="polylang-2" class="widget widget_polylang">
+          <div class="widget-wrap">
+            <ul>
+              <li class="lang-item lang-item-3 lang-item-en lang-item-first current-lang"><a hreflang="en-GB" href="{% for link in site.data.nav %} {% if page.title contains link.title %} {{ link.href }} {% endif %} {% endfor %}" lang="en-GB"><img src="/css/images/en_GB.png" title="English" alt="English"><span style="margin-left:0.3em;"></span></a></li>
+              <li class="lang-item lang-item-6 lang-item-pt"><a hreflang="pt-BR" href="{% for link in site.data.nav %} {% if page.title contains link.title %} {{ link.hrefpt }} {% endif %} {% endfor %}" lang="pt-BR"><img src="/css/images/pt_BR.png" title="Português" alt="Português"><span style="margin-left:0.3em;"></span></a></li>
+            </ul>
+          </div>
+        </section>
+        {% if page.url contains "pt/" %}
+        <section id="text-2" class="widget widget_text">
+          <div class="widget-wrap">
+            <h3 class="widgettitle widget-title">Social icons</h3>
+            <div class="textwidget">
+              <ul class="social-icons list-unstyled list-inline">
+                <li><a href="https://www.facebook.com/mobilidadeurbanasaudavel/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/ProjetoMUS"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+
+  <nav class="nav-primary" aria-label="Main" itemscope="" itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
+    <div class="wrap">
+      <div id="responsive-menu-icon"></div>
+
+      <ul id="menu-main-navigation-en" class="menu genesis-nav-menu menu-primary js-superfish sf-js-enabled sf-arrows">
+
+        {% for link in site.data.nav %}
+          {% assign pagelink = link.href %}
+          {% assign pagetitle = link.title %}
+          {% if page.url contains "pt/" %}
+            {% assign pagelink = link.hrefpt %}
+            {% assign pagetitle = link.titlept %}
+          {% endif %}
+          <li class="menu-item menu-item-type-post_type menu-item-object-page{% if url contains link.href %} current-menu-item current_page_item{% endif %}">
+            <a href="{{ pagelink | prepend: site.baseurl }}" class="about" itemprop="url"><span itemprop="name">{{ pagetitle }}</span></a>
+          </li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+  </nav>

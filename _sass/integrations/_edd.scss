@@ -1,0 +1,111 @@
+// [downloads] shortcode
+.edd_downloads_list .edd_download {
+	text-align: center;
+	
+	@include media($medium-screen-up) {
+		@include span-columns(4 of 12);
+	}
+
+	.edd_download_image a {
+		border-bottom: 0;
+	}
+
+	.edd_download_image img {
+		display: inline-block;
+		border: $base-border;
+		border-radius: $base-border-radius;
+		padding: .5em;
+		@include margin( null null $base-spacing/2 null );
+	}
+
+	.edd_download_title {
+		font-size: 1.2em;
+		margin-bottom: $base-spacing / 4;
+	}
+
+	.edd_download_excerpt {
+		font-size: .9em;
+		@include padding( null 1em );
+	}
+
+	.edd_download_buy_button {
+		font-size: .9em;
+	}
+
+	.edd-cart-added-alert {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+// The single-download template
+.single-download {
+	.wp-post-image {
+		height: auto;
+		margin-bottom: $base-spacing;
+		@include span-columns(10 of 10);
+		@include media($medium-screen-up) {
+			@include span-columns(4 of 10);
+		}
+	}
+
+	.edd-download {
+		text-align: center;
+		@include span-columns(10 of 10);
+		@include media($medium-screen-up) {
+			text-align: left;
+			@include span-columns(6 of 10);
+		}
+	}
+}
+
+// Make EDD buttons mirror sitewide buttons
+// EDD Settings > Styles > Default Button Colour should be set to "inherit"
+.edd_download .button,
+.edd-download .button {
+	@include buttons;
+}
+
+.edd_go_to_checkout {
+	background-color: $action-color !important;
+	color: #fff !important;
+
+	&:hover,
+	&:focus {
+		background-color: lighten($action-color, 15%) !important;
+	}
+}
+
+#edd_terms_agreement {
+	margin-top: 1.387em !important;
+	margin-left: 1.387em !important;
+}
+
+#edd_show_terms {
+	margin-bottom: $base-spacing / 2;
+}
+
+#edd-purchase-button,
+.edd-submit,
+input[type=submit].edd-submit {
+	background-color: $action-color !important;
+	color: #fff !important;
+	font-family: $base-font-family !important;
+	font-size: $base-font-size / 1.2 !important;
+	font-weight: 600 !important;
+	line-height: 1 !important;
+	padding: 0.75em 1em !important;
+	border: none !important;
+
+	&:hover,
+	&:focus {
+		background-color: lighten($action-color, 15%) !important;
+	}
+}
+
+#edd-purchase-button {
+	margin-left: 1.387em !important;
+	margin-bottom: 1.387em !important;
+}

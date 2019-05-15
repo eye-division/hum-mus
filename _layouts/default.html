@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+  {% include head.html %}
+
+  <body class="page-template-default page page-parent header-image header-full-width {% if page.titleen == "Home" %} hum-landing home full-width-content front-page {% else %} sidebar-content {% endif %} js {% if page.style %} {{ page.style }}{% endif %}">
+
+    <div class="site-container">
+
+      {% include header.html %}
+
+      <div class="site-inner page--content">
+        <div class="wrap">
+
+          {{ content }}
+        </div>
+
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,112 @@
+.front-page {
+	.site-header {
+
+	}
+
+	.site-title {
+		/*
+
+
+		 // @link http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size#answer-22211990
+		@include clearfix;
+		width: 90%;
+		height: 0;
+		//padding-top: 34.2%; // (img-height / img-width * container-width)
+		text-indent: -9999px;
+		//background: url('images/musket-logo.png') top center no-repeat;
+		background-size: contain;
+		margin: $base-spacing 5% $base-spacing/3 5%;
+
+		@include media( $medium-screen-up ) {
+			width: 60%;
+			height: 0;
+			padding-top: 22.797202797%; // (img-height / img-width * container-width)
+			margin: $base-spacing 20% $base-spacing/3 20%;
+
+		}
+		*/
+	}
+
+	.motif {
+		width: 80%;
+		margin: $base-spacing 10% $base-spacing 10%;
+
+		@include media( $medium-screen-up ) {
+			width: 40%;
+			margin: $base-spacing 30% $base-spacing 30%;
+		}
+	}
+
+	.site-description {
+		text-align: center;
+		color: $brand-color;
+		margin-bottom: $base-spacing * 2;
+	}
+
+	.hero-inner {
+		min-height: 370px;
+		@include media( $giant-screen-up ) {
+			min-height: 450px;
+		}
+	}
+	.home-upper {
+		text-align: center;
+		font-size: 1.2em;
+	}
+	.intro {
+		@include edge-to-edge;
+		text-align: center;
+		padding: 2em;
+		background: $white;
+		color: $dark-grey;
+		a {
+			color: $dark-grey;
+			&:hover,&:active {
+				color: $brand-color;
+			}
+		}
+		@include media( $medium-screen-up ) {
+			padding: 3em;
+
+		}
+
+		h2 {
+			font-size: 2em;
+		}
+		p {
+			line-height: 1.6;
+		}
+		.faqs {
+			margin-top: $base-spacing * 2;
+		}
+
+		.view-docs {
+			margin-top: $base-spacing * 1.5;
+			font-size: 1.4em;
+		}
+	}
+	.blue-bg {
+		@include edge-to-edge;
+		text-align: center;
+		background: url(/assets/images/white_strip_bottom.png) bottom no-repeat $brand-color;
+		padding-bottom: 1em;
+	}
+	.slider {
+		padding: 2em;
+		background: url(/assets/images/white_strip_top.png) no-repeat $brand-color;
+		@include media( $medium-screen-up ) {
+			@include outer-container;
+		}
+	}
+	.about {
+		@include media( $medium-screen-up ) {
+			@include span-columns(6);
+		}
+	}
+	.about__image {
+		@include media( $medium-screen-up ) {
+			@include span-columns(6);
+		}
+	}
+
+}

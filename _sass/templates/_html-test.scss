@@ -1,0 +1,16 @@
+.html-test {
+	
+	.default-ol {
+		@extend %default-ol;
+	}
+
+	.default-ul {
+		@extend %default-ul;
+	}
+
+	.radio-buttons-test,
+	.checkboxes-test {
+		margin-bottom: $base-spacing;
+	}
+
+}

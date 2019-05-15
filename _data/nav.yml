@@ -1,0 +1,62 @@
+- title: Home
+  titleen: Home
+  titlept: Início
+  href: /
+  hrefpt: /pt/home-2/
+  class:
+- title: 'About'
+  titleen: About
+  titlept: 'Sobre'
+  href: /en/about/
+  hrefpt: /pt/sobre/
+  subcategories:
+    - subtitle: Background
+      subtitleen: Background
+      subtitlept: Contexto
+      href: /en/about/background/
+      hrefpt: /pt/sobre/contexto/
+    - subtitle: Objectives
+      subtitleen: Objectives
+      subtitlept: Objectivos
+      href: /en/about/objectives/
+      hrefpt: /pt/sobre/objectivos/
+    - subtitle: Method
+      subtitleen: Method
+      subtitlept: Método
+      href: /en/about/method/
+      hrefpt: /pt/sobre/metodos/
+    - subtitle: Case sites
+      subtitleen: Case sites
+      subtitlept: Áreas de estudo
+      href: /en/about/case-sites/
+      hrefpt: /pt/sobre/estudos-locais/
+    - subtitle: Global importance
+      subtitleen: Global importance
+      subtitlept: Significância
+      href: /en/about/global-importance/
+      hrefpt: /pt/sobre/importancia/
+- title: 'Who'
+  titleen: Who
+  titlept: Quem Somos
+  href: /en/who/
+  hrefpt: /pt/quem-sonos/
+- title: 'Media'
+  titleen: Media
+  titlept: Na Imprensa
+  href: /en/media/
+  hrefpt: /pt/imprensa/
+- title: 'Blog'
+  titleen: Blog
+  titlept: Blog
+  href: /en/blog/
+  hrefpt: /pt/blog-2/
+- title: 'Outputs'
+  titleen: Outputs
+  titlept: Resultados
+  href: /en/outputs/
+  hrefpt: /pt/resultados/
+- title: 'Contact'
+  titleen: Contact
+  titlept: Contato
+  href: /en/contact/
+  hrefpt: /pt/contato/

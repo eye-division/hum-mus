@@ -10,8 +10,15 @@
         <section id="polylang-2" class="widget widget_polylang">
           <div class="widget-wrap">
             <ul>
-              <li class="lang-item lang-item-3 lang-item-en lang-item-first current-lang"><a hreflang="en-GB" href="{% for link in site.data.nav %} {% if page.title contains link.title %} {{ link.href }} {% endif %} {% endfor %}" lang="en-GB"><img src="/css/images/en_GB.png" title="English" alt="English"><span style="margin-left:0.3em;"></span></a></li>
-              <li class="lang-item lang-item-6 lang-item-pt"><a hreflang="pt-BR" href="{% for link in site.data.nav %} {% if page.title contains link.title %} {{ link.hrefpt }} {% endif %} {% endfor %}" lang="pt-BR"><img src="/css/images/pt_BR.png" title="Português" alt="Português"><span style="margin-left:0.3em;"></span></a></li>
+            {% for link in site.data.nav %}
+              {% if page.title contains link.title or page.title contains link.titlept %}
+                {% assign pagelink = link.href %}
+                {% assign pagelinkpt = link.hrefpt %}
+              {% endif %}
+            {% endfor %}
+
+              <li class="lang-item lang-item-3 lang-item-en lang-item-first current-lang"><a hreflang="en-GB" href="{{ pagelink }}" lang="en-GB"><img src="/css/images/en_GB.png" title="English" alt="English"><span style="margin-left:0.3em;"></span></a></li>
+              <li class="lang-item lang-item-6 lang-item-pt"><a hreflang="pt-BR" href="{{ pagelinkpt }}" lang="pt-BR"><img src="/css/images/pt_BR.png" title="Português" alt="Português"><span style="margin-left:0.3em;"></span></a></li>
             </ul>
           </div>
         </section>

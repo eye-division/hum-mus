@@ -6,7 +6,7 @@ date: 2016-08-18T11:48:46+01:00
 author: support@eyedivision.com
 layout: page
 guid: http://www.hum-mus.org/?page_id=33
-permalink: "/en/media"
+permalink: "/en/media/"
 sidebar: "sidebar.html"
 ---
 [<img class="alignnone wp-image-34 size-medium" src="/wp-content/uploads/2016/08/2016_Spring_OBU_Research-Forum-300x213.jpg?resize=300%2C213" alt="Research Forum media mention" width="300" height="213" srcset="/wp-content/uploads/2016/08/2016_Spring_OBU_Research-Forum.jpg?resize=300%2C213&ssl=1 300w, /wp-content/uploads/2016/08/2016_Spring_OBU_Research-Forum.jpg?resize=768%2C546&ssl=1 768w, /wp-content/uploads/2016/08/2016_Spring_OBU_Research-Forum.jpg?resize=1024%2C728&ssl=1 1024w, /wp-content/uploads/2016/08/2016_Spring_OBU_Research-Forum.jpg?w=2000&ssl=1 2000w, /wp-content/uploads/2016/08/2016_Spring_OBU_Research-Forum.jpg?w=3000&ssl=1 3000w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](http://www.hum-mus.org/en/media/2016_spring_obu_research-forum/)

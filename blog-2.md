@@ -12,7 +12,8 @@ sidebar: "sidebar.html"
   {% for post in site.posts %}
     {% if post.permalink contains "pt/" %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date_to_long_string }}
+      <a href="{{ post.url }}">{{ post.title }}</a> 
+      <span class="date">{{ post.date | date_to_long_string }}</span>
     </li>
     {% endif %}
   {% endfor %}

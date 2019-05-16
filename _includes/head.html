@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://www.hum-mus.org/en/home/">
+<link rel="canonical" href="https://www.hum-mus.org/">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Home - Healthy Urban Mobility">
@@ -29,32 +29,47 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-82684026-1', 'auto');
-  ga('send', 'pageview');
-
+  ga('send', 'pageview', {
+    'page': '/',
+    'title': 'HUM MUS'
+  });
 </script>
 
 
 <!-- Site styles -->
+
+<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" id="fonts-css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css?ver=9dadaa60bb4d063022c65567179fa862" type="text/css" media="all">
+<link rel="stylesheet" href="{{ "/css/dashicons.min.css" | prepend: site.baseurl }}" type="text/css" media="all">
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+
 {% if page.titleen == "Home" %}
 
   <link rel="stylesheet" id="google-maps-builder-plugin-styles-css" href="/css/google-maps-builder.min.css?ver=2.1.2" type="text/css" media="all">
   <link rel="stylesheet" id="google-maps-builder-map-icons-css" href="/css/map-icons.css?ver=2.1.2" type="text/css" media="all">
-  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/controls.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/places_impl.js"></script>
-  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/overlay.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/marker.js"></script>
-  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/onion.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/36/12/stats.js"></script>
 
 {% endif %}
 
-<link rel="stylesheet" href="/css/dashicons.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" id="fonts-css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css?ver=9dadaa60bb4d063022c65567179fa862" type="text/css" media="all">
-
-<script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-      crossorigin="anonymous"></script>
+<!-- scripts -->
+<script type="text/javascript" src="/js/jquery.js?ver=1.12.4"></script>
 <script type="text/javascript" src="/js/jquery-migrate.min.js?ver=1.4.1"></script>
+<script src="https://use.typekit.net/bus5ckm.js" async=""></script>
+
+{% if page.titleen == "Home" %}
+  <link rel="dns-prefetch" href="//maps.googleapis.com">
+  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/common.js">
+
+  </script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/util.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/map.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/controls.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/places_impl.js"></script>
+  <style type="text/css">._ibani_4208{-webkit-animation-name:_ibani_4208;-webkit-animation-duration:0.5s;-webkit-animation-iteration-count:1;}@-webkit-keyframes _ibani_4208 {from {-webkit-transform: scale(0)}50% {-webkit-transform: scale(1.2)}90% {-webkit-transform: scale(0.95)}to {-webkit-transform: scale(1)}}</style>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/overlay.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/marker.js"></script>
+<style type="text/css">._ibani_5237{-webkit-animation-name:_ibani_5237;-webkit-animation-duration:0.5s;-webkit-animation-iteration-count:1;}@-webkit-keyframes _ibani_5237 {from {-webkit-transform: scale(0)}50% {-webkit-transform: scale(1.2)}90% {-webkit-transform: scale(0.95)}to {-webkit-transform: scale(1)}}</style>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/onion.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/37/1/intl/en_gb/stats.js"></script>
+{% endif %}
 
 </head>

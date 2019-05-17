@@ -3,7 +3,7 @@
 <header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader">
     <div class="wrap">
       <div class="title-area">
-        <h1 class="site-title" itemprop="headline"><a href="{% if page.url contains "pt/" %}/pt/home-2{% else %}/{% endif %}"><img src="/css/images/logo.png" alt="Healthy Urban Mobility Homepage" width="120" height="120"><span>Healthy Urban Mobility</span></a>
+        <h1 class="site-title" itemprop="headline"><a href="{% if page.url contains "pt/" %}/pt/home-2{% else %}/{% endif %}"><img src="/css/images/logo.png" alt="Healthy Urban Mobility Homepage" width="120" height="120"><span>{% if page.url contains "pt/" %}{{ site.title_pt }}{% else %}{{ site.title }}{% endif %}</span></a>
         </h1>
       </div>
       <div class="widget-area header-widget-area">

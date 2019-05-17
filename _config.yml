@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Healthy Urban Mobility"
+title_pt: "Mobilidade Urbana Saudável"
 email: "info@hum-mus.org"
 description: >- # this means to ignore newlines until "baseurl:"
  The Healthy Urban Mobility (HUM) project is a study to understand the impact of everyday (im)mobility on health and wellbeing with a variety of social groups living in different neighbourhoods in Brazil and the UK, and also to explore the potential for participatory mobilities planning with local communities to support and develop solutions for healthy urban mobility
@@ -26,6 +27,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

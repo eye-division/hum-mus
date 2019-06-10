@@ -71,51 +71,97 @@ sidebar: "sidebar-about.html"
 
 ### Assistentes de pesquisa
 
-<div id='gallery-9' class='gallery galleryid-79 gallery-columns-4 gallery-size-full'>
+<div id='gallery-9' class='gallery galleryid-79 gallery-columns-2 gallery-size-full'>
+  
   <figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0013_Ben-Spencer.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Dr. Ben Spencer (Oxford Brookes University)" aria-describedby="gallery-9-349" srcset="/wp-content/uploads/2016/08/team_0013_Ben-Spencer.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0013_Ben-Spencer.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
   </div><figcaption class='wp-caption-text gallery-caption' id='gallery-9-349'> Dr. Ben Spencer (Oxford Brookes University) 
   
-  <a href="http://be.brookes.ac.uk/staff/ben-spencer.html">Página da Oxford Brookes</a> </figcaption></figure><figure class='gallery-item'> 
+  <a href="http://be.brookes.ac.uk/staff/ben-spencer.html">Página da Oxford Brookes</a> </figcaption>
+  </figure>
+
+  <figure class='gallery-item'> 
+  
+    <div class='gallery-icon landscape'>
+      <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0012_Desirée-Kuhn.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Arq. Desirée Kuhn (Universidade Federal do Rio Grande do Sul)" aria-describedby="gallery-9-348" srcset="/wp-content/uploads/2016/08/team_0012_Desirée-Kuhn.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0012_Desirée-Kuhn.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+    </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-9-348'> Arq. Desirée Kuhn (Universidade Federal do Rio Grande do Sul) 
+    
+    <a href="http://lattes.cnpq.br/9883402203205240">Currículo completo</a> </figcaption>
+  </figure>
+
+  <figure class='gallery-item'> 
+  
+    <div class='gallery-icon landscape'>
+      <img width="160" height="160" src="/wp-content/uploads/2016/10/team_0004_Kadine-P.-Bender-dos-Santos.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Ft. Kadine P. Bender dos Santos" aria-describedby="gallery-4-319" srcset="/wp-content/uploads/2016/10/team_0004_Kadine-P.-Bender-dos-Santos.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/10/team_0004_Kadine-P.-Bender-dos-Santos.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+    </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-9-406'> Ft. Kadine P. Bender dos Santos (Universidade Federal de Santa Catarina) 
+    
+    <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4273761D2">Currículo completo</a> </figcaption>
+  </figure>
+
+</div>
+
+<div id='gallery-7' class='gallery galleryid-31 gallery-columns-2 gallery-size-full'>
+  
+  <figure class='gallery-item'> 
+  
+    <div class='gallery-icon landscape'>
+      <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0006_Ingrid-Neto.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Psi. Ingrid Neto (Universidade de Brasília)" aria-describedby="gallery-9-342" srcset="/wp-content/uploads/2016/08/team_0006_Ingrid-Neto.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0006_Ingrid-Neto.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+    </div>
+    <figcaption class='wp-caption-text gallery-caption' id='gallery-9-342'> Psi. Ingrid Neto (Universidade de Brasília) 
+    
+    <a href="http://lattes.cnpq.br/1642771671488615">Currículo completo</a> </figcaption>
+  </figure> 
+  <figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
-    <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0012_Desirée-Kuhn.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Arq. Desirée Kuhn (Universidade Federal do Rio Grande do Sul)" aria-describedby="gallery-9-348" srcset="/wp-content/uploads/2016/08/team_0012_Desirée-Kuhn.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0012_Desirée-Kuhn.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-9-348'> Arq. Desirée Kuhn (Universidade Federal do Rio Grande do Sul) 
+    <img width="160" height="160" src="/assets/sabrina-da-rosa-machry.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Sabrina da Rosa Machry" aria-describedby="gallery-4-321" srcset="/assets/sabrina-da-rosa-machry.jpg?w=160&ssl=1 160w, /assets/sabrina-da-rosa-machry.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-321'> Arq. Sabrina da Rosa Machry 
   
-  <a href="http://lattes.cnpq.br/9883402203205240">Currículo completo</a </figcaption></figure><figure class='gallery-item'> 
-  
-  <div class='gallery-icon landscape'>
-    <img width="391" height="391" src="/wp-content/uploads/2016/08/Kadine-P.-Bender-dos-Santos-2-e1487013685290.jpg?resize=391%2C391&#038;ssl=1" class="attachment-full size-full" alt="" aria-describedby="gallery-9-406" srcset="/wp-content/uploads/2016/08/Kadine-P.-Bender-dos-Santos-2-e1487013685290.jpg?w=391&ssl=1 391w, /wp-content/uploads/2016/08/Kadine-P.-Bender-dos-Santos-2-e1487013685290.jpg?resize=150%2C150&ssl=1 150w, /wp-content/uploads/2016/08/Kadine-P.-Bender-dos-Santos-2-e1487013685290.jpg?resize=300%2C300&ssl=1 300w" sizes="(max-width: 391px) 100vw, 391px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-9-406'> Ft. Kadine P. Bender dos Santos (Universidade Federal de Santa Catarina) 
-  
-  <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4273761D2">Currículo completo</a> </figcaption></figure><figure class='gallery-item'> 
+  <a href="http://lattes.cnpq.br/3246421295150903">Currículo completo</a> </figcaption></figure>
+
+  <figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
-    <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0006_Ingrid-Neto.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Psi. Ingrid Neto (Universidade de Brasília)" aria-describedby="gallery-9-342" srcset="/wp-content/uploads/2016/08/team_0006_Ingrid-Neto.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0006_Ingrid-Neto.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-9-342'> Psi. Ingrid Neto (Universidade de Brasília) 
+    <img width="160" height="160" src="/assets/luisa-horn-de-castro-silveira.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Psi. Luisa Horn de Castro Silveira" aria-describedby="gallery-4-321" srcset="/assets/luisa-horn-de-castro-silveira.jpg?w=160&ssl=1 160w, /assets/luisa-horn-de-castro-silveira.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-321'> Psi. Luisa Horn de Castro Silveira
   
-  <a href="http://lattes.cnpq.br/1642771671488615">Currículo completo</a> </figcaption></figure> </div> 
+  <a href="http://lattes.cnpq.br/5900389958932677">Currículo completo</a> </figcaption></figure>
+</div> 
   
   <h3>
     Assistentes Juniores
   </h3>
   
-  <div id='gallery-10' class='gallery galleryid-79 gallery-columns-4 gallery-size-full'>
+  <div id='gallery-10' class='gallery galleryid-79 gallery-columns-2 gallery-size-full'>
+
     <figure class='gallery-item'> 
     
     <div class='gallery-icon landscape'>
       <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0008_Guilherme-Iablonovski.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Arq. Guilherme Iablonovski (Porto Alegre)" aria-describedby="gallery-10-344" srcset="/wp-content/uploads/2016/08/team_0008_Guilherme-Iablonovski.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0008_Guilherme-Iablonovski.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-    </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-344'> Arq. Guilherme Iablonovski (Porto Alegre) </figcaption></figure><figure class='gallery-item'> 
+    </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-344'> Arq. Guilherme Iablonovski (Porto Alegre) </figcaption></figure>
+
+    <figure class='gallery-item'> 
     
     <div class='gallery-icon landscape'>
       <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0003_Lourenço-Valentini.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Lourenço Valentini (Universidade Federal do Rio Grande do Sul)" aria-describedby="gallery-10-339" srcset="/wp-content/uploads/2016/08/team_0003_Lourenço-Valentini.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0003_Lourenço-Valentini.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-    </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-339'> Lourenço Valentini (Universidade Federal do Rio Grande do Sul) </figcaption></figure><figure class='gallery-item'> 
+    </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-339'> Lourenço Valentini (Universidade Federal do Rio Grande do Sul) </figcaption></figure>
+
+  
+    <figure class='gallery-item'> 
     
     <div class='gallery-icon landscape'>
       <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0010_Fernanda-Goulart.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Arq. Fernarda Goulart (Universidade de Brasília)" aria-describedby="gallery-10-346" srcset="/wp-content/uploads/2016/08/team_0010_Fernanda-Goulart.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0010_Fernanda-Goulart.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-    </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-346'> Arq. Fernanda Goulart (Universidade de Brasília) </figcaption></figure><figure class='gallery-item'> 
+    </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-346'> Arq. Fernanda Goulart (Universidade de Brasília) </figcaption></figure>
+
+</div>
+
+<div id='gallery-9' class='gallery galleryid-31 gallery-columns-2 gallery-size-full'>
+
+    <figure class='gallery-item'> 
     
     <div class='gallery-icon landscape'>
       <img width="160" height="160" src="/wp-content/uploads/2016/08/team_0014_Alexandre-Correia-Pedra-1.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Psi. Alexandre Correia Pedra (Universidade de Brasília)" aria-describedby="gallery-10-350" srcset="/wp-content/uploads/2016/08/team_0014_Alexandre-Correia-Pedra-1.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/08/team_0014_Alexandre-Correia-Pedra-1.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
@@ -130,10 +176,48 @@ sidebar: "sidebar-about.html"
     </div><figcaption class='wp-caption-text gallery-caption' id='gallery-10-371'> Caroline Machado (Universidade de Brasília) </figcaption></figure>
   </div>
   
-  <p>
-    Edna Torres (Universidade de Brasília)
-  </p>
+ <div id='gallery-15' class='gallery galleryid-31 gallery-columns-2 gallery-size-full'>
+
+  <figure class='gallery-item'> 
   
-  <p>
-    Fernanda Machado (Universidade de Brasília)
-  </p>
+  <div class='gallery-icon landscape'>
+    <img width="160" height="160" src="/wp-content/uploads/2016/08/Francisca-Daussy-e1487011442553.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="" aria-describedby="gallery-5-403" data-recalc-dims="1" />
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-5-403'> Francisca Daussy (Universidade Federal de Santa Catarina) </figcaption></figure>
+
+  <figure class='gallery-item'> 
+    <div class='gallery-icon landscape'>
+    <img width="160" height="160" src="/wp-content/uploads/2016/08/Danubia-Hillesheim.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="" aria-describedby="gallery-5-404" srcset="/wp-content/uploads/2016/08/Danubia-Hillesheim.jpg?w=960&ssl=1 160w, /wp-content/uploads/2016/08/Danubia-Hillesheim.jpg?resize=150%2C150&ssl=1 150w, /wp-content/uploads/2016/08/Danubia-Hillesheim.jpg?resize=300%2C300&ssl=1 300w, /wp-content/uploads/2016/08/Danubia-Hillesheim.jpg?resize=768%2C768&ssl=1 768w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-5-404'> Danúbia Hillesheim (Universidade Federal de Santa Catarina) </figcaption></figure>
+</div>
+
+
+<div id='gallery-16' class='gallery galleryid-31 gallery-columns-2 gallery-size-full'>
+
+<figure class='gallery-item'> 
+    <div class='gallery-icon landscape'>
+    <img width="160" height="160" src="/assets/bibiana-umann-borda.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Bibiana V. Umann Borda" aria-describedby="gallery-5-373" srcset="/assets/bibiana-umann-borda.jpg?w=160&ssl=1 160w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+  </div>
+  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Bibiana V. Umann Borda </figcaption>
+</figure>
+<figure class='gallery-item'>
+  <div class='gallery-icon landscape'>
+    <img width="160" height="160" src="/assets/amanda-faraco-soares.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Amanda Faraco Soares" aria-describedby="gallery-5-373" srcset="/assets/amanda-faraco-soares.jpg?w=160&ssl=1 160w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Amanda Faraco Soares </figcaption></figure>
+</div>
+
+<div id='gallery-18' class='gallery galleryid-31 gallery-columns-2 gallery-size-full'>
+  <figure class='gallery-item'> 
+    <div class='gallery-icon landscape'>
+    
+  </div>
+  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Edna Torres (Universidade de Brasília) </figcaption>
+</figure>
+<figure class='gallery-item'>
+  <div class='gallery-icon landscape'>
+    
+  </div>
+  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Fernanda Machado (Universidade de Brasília) </figcaption></figure>
+  
+
+
+  </div>

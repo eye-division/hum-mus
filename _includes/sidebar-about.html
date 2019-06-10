@@ -39,26 +39,26 @@
     <h3 class="widgettitle widget-title">Recent Posts</h3>
     {% if page.url contains "pt/" %}
       <ul>
-        <li>
-          <a href="https://www.hum-mus.org/pt/15th-icuh-conferencia-internacional-de-saude-urbana/">15th ICUH: Conferência Internacional de Saúde Urbana</a>
-        <span class="post-date">23/01/2019</span>
-        </li>
-        <li>
-          <a href="https://www.hum-mus.org/pt/pnum-2018-morfologia-e-mobilidade-urbana-saudavel/">PNUM 2018: Morfologia e Mobilidade Urbana Saudável</a>
-        <span class="post-date">14/08/2018</span>
-        </li>
+        {% for post in site.posts %}
+          {% if post.permalink contains "pt/" %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          </li>
+          {% endif %}
+        {% endfor %}
        </ul>
 
       {% else %}
         <ul>
-         <li>
-            <a href="/en/15th-icuh-international-conference-on-urban-health/">15th ICUH: International Conference on Urban Health</a>
-              <span class="post-date">23/01/2019</span>
-          </li>
-          <li>
-            <a href="/en/pnum-2018-morphology-and-healthy-urban-mobility/">PNUM 2018: Morphology and Healthy Urban Mobility</a>
-              <span class="post-date">14/08/2018</span>
-          </li>
+          {% for post in site.posts %}
+            {% if post.permalink contains "en/" %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+            </li>
+            {% endif %}
+          {% endfor %}
         </ul>
       {% endif %}
     </div>

@@ -7,7 +7,7 @@ author: support@eyedivision.com
 layout: page
 guid: http://www.hum-mus.org/?page_id=79
 permalink: "/pt/quem-somos/"
-sidebar: "sidebar-about.html"
+sidebar: "sidebar.html"
 ---
 ### Pesquisadores principais
 

@@ -7,7 +7,7 @@ author: support@eyedivision.com
 layout: page
 guid: http://www.hum-mus.org/?page_id=85
 permalink: "/pt/resultados/"
-sidebar: "sidebar.html"
+sidebar: "sidebar-outputs.html"
 ---
 Livro com os principais resultados do estudo na cidade de Florianópolis, em versão pdf:
 

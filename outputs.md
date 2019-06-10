@@ -7,7 +7,7 @@ author: support@eyedivision.com
 layout: page
 guid: http://www.hum-mus.org/?page_id=83
 permalink: "/en/outputs/"
-sidebar: "sidebar.html"
+sidebar: "sidebar-outputs.html"
 ---
 # Community video making
 

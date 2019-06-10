@@ -55,6 +55,17 @@
   titlept: Resultados
   href: /en/outputs/
   hrefpt: /pt/resultados/
+  subcategories:
+    - subtitle: Publications
+      subtitleen: Publications
+      subtitlept: Registros
+      href: /en/outputs/publications/
+      hrefpt: /pt/resultados/registros/
+    - subtitle: Video
+      subtitleen: Video
+      subtitlept: Video
+      href: /en/outputs/video/
+      hrefpt: /pt/resultados/video/
 - title: 'Contact'
   titleen: Contact
   titlept: Contato

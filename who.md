@@ -205,6 +205,11 @@ sidebar: "sidebar.html"
   </div>
   <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Fernanda Machado (University of Brasilia) </figcaption></figure>
   
-
+<figure class='gallery-item'>
+  <div class='gallery-icon landscape'>
+    
+  </div>
+  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Arq. Guilherme Lablonovski (Federal University of Rio Grande do Sul) </figcaption>
+</figure>
 
   </div>

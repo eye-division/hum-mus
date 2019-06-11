@@ -11,15 +11,12 @@ sidebar: "sidebar-outputs.html"
 
 In the autumn of 2017 four residents of Rose Hill Oxford learned how to make films on a course run by Film Oxford. They applied their new skills to creating two films relating to Healthy Urban Mobility issues. To find out more about their experience and the impact of their films read their [guest blog](https://www.hum-mus.org/en/rose-hill-film-makers-guest-blog/).
 
-The first film was about why people cycled in Rose Hill &#8211; and why not.
+The first <a href="http://bit.ly/2XH19Pe" target="new">film was about why people cycled in Rose Hill &#8211; and why not</a>.
 
-<div class="fb-video" data-allowfullscreen="true" data-href="https://www.facebook.com/HUMOxford/videos/314628049054307/">
-</div>
 
 &nbsp;
 
-The second film looked at the effect of cuts to their local number 20 bus.
+The <a href="http://bit.ly/2W89Rpp" target="new">second film looked at the effect of cuts to their local number 20 bus</a>.
 
-<div class="fb-video" data-allowfullscreen="true" data-href="https://www.facebook.com/HUMOxford/videos/314657789051333/">
-</div>
+
 

@@ -10,8 +10,11 @@ sidebar: "sidebar-outputs.html"
 ## HUM Summary Documents
 
 <ul>
-    <li><a href="/assets/HUM_Barton_A4_Summary_Report_8pp_PRINTv2.pdf">Summary of Key Findings and Community Priorities</a> [PDF], Barton, Oxford</li>
-    <li><a href="/assets/HUM_RoseHill_A4_Summary_Report_8pp_PRINT v2.pdf">Summary of Key Findings and Community Priorities</a> [PDF], Rose Hill, Oxford</li>
+    <li><a href="/assets/HUM_A4_Summary_Report_44pp_PRINT_v2">Summary of Key Findings and Recommendations</a> [24MB PDF]</li>
+
+    <li><a href="/assets/HUM_Barton_A4_Summary_Report_8pp_PRINTv2.pdf">Summary of Key Findings and Community Priorities</a> [9MB PDF], Barton, Oxford</li>
+
+    <li><a href="/assets/HUM_RoseHill_A4_Summary_Report_8pp_PRINT v2.pdf">Summary of Key Findings and Community Priorities</a> [9MB PDF], Rose Hill, Oxford</li>
 </ul>
 
 

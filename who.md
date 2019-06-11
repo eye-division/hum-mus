@@ -77,7 +77,7 @@ sidebar: "sidebar.html"
   <figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
-    <img width="160" height="160" src="/wp-content/uploads/2016/10/team_0013_Ben-Spencer.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Dr Ben Spencer" aria-describedby="gallery-4-328" srcset="/wp-content/uploads/2016/10/team_0013_Ben-Spencer.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/10/team_0013_Ben-Spencer.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
+    <img width="160" height="160" src="/assets/ben-spencer.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Dr Ben Spencer" aria-describedby="gallery-4-328" srcset="/assets/ben-spencer.jpg?w=160&ssl=1 160w, /assets/ben-spencer.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
   </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-328'> Dr Ben Spencer (Oxford Brookes University) 
   
   <a href="http://be.brookes.ac.uk/staff/ben-spencer.html">Oxford Brookes page</a> </figcaption></figure>
@@ -112,7 +112,7 @@ sidebar: "sidebar.html"
   
   <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/assets/sabrina-da-rosa-machry.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Sabrina da Rosa Machry" aria-describedby="gallery-4-321" srcset="/assets/sabrina-da-rosa-machry.jpg?w=160&ssl=1 160w, /assets/sabrina-da-rosa-machry.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-321'> Arq. Sabrina da Rosa Machry 
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-321'> Arq. Sabrina da Rosa Machry   (Federal University of Rio Grande do Sul)
   
   <a href="http://lattes.cnpq.br/3246421295150903">Full CV</a> </figcaption></figure>
 
@@ -120,7 +120,7 @@ sidebar: "sidebar.html"
   
   <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/assets/luisa-horn-de-castro-silveira.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Psi. Luisa Horn de Castro Silveira" aria-describedby="gallery-4-321" srcset="/assets/luisa-horn-de-castro-silveira.jpg?w=160&ssl=1 160w, /assets/luisa-horn-de-castro-silveira.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-321'> Psi. Luisa Horn de Castro Silveira
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-4-321'> Psi. Luisa Horn de Castro Silveira  (Federal University of Rio Grande do Sul)
   
   <a href="http://lattes.cnpq.br/5900389958932677">Full CV</a> </figcaption></figure>
 </div>
@@ -136,7 +136,8 @@ sidebar: "sidebar.html"
   
   <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/wp-content/uploads/2016/08/Lourenço-Valentini2.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="" aria-describedby="gallery-5-402" srcset="/wp-content/uploads/2016/08/Lourenço-Valentini2.jpg?w=960&ssl=1 960w, /wp-content/uploads/2016/08/Lourenço-Valentini2.jpg?resize=160%2C150&ssl=1 160w, /wp-content/uploads/2016/08/Lourenço-Valentini2.jpg?resize=300%2C300&ssl=1 300w, /wp-content/uploads/2016/08/Lourenço-Valentini2.jpg?resize=768%2C768&ssl=1 768w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-5-402'> Lourenço Valentini (Federal University of Rio Grande do Sul) </figcaption></figure><figure class='gallery-item'> 
+  </div>
+  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-402'> Lourenço Valentini (Federal University of Rio Grande do Sul) </figcaption></figure><figure class='gallery-item'> 
   
   <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/wp-content/uploads/2016/10/team_0010_Fernanda-Goulart.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Arq. Fernarda Goulart" aria-describedby="gallery-5-325" srcset="/wp-content/uploads/2016/10/team_0010_Fernanda-Goulart.jpg?w=160&ssl=1 160w, /wp-content/uploads/2016/10/team_0010_Fernanda-Goulart.jpg?resize=150%2C150&ssl=1 150w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
@@ -183,12 +184,12 @@ sidebar: "sidebar.html"
     <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/assets/bibiana-umann-borda.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Bibiana V. Umann Borda" aria-describedby="gallery-5-373" srcset="/assets/bibiana-umann-borda.jpg?w=160&ssl=1 160w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
   </div>
-  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Bibiana V. Umann Borda </figcaption>
+  <figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Bibiana V. Umann Borda  (Federal University of Rio Grande do Sul)</figcaption>
 </figure>
 <figure class='gallery-item'>
   <div class='gallery-icon landscape'>
     <img width="160" height="160" src="/assets/amanda-faraco-soares.jpg?resize=160%2C160&#038;ssl=1" class="attachment-full size-full" alt="Amanda Faraco Soares" aria-describedby="gallery-5-373" srcset="/assets/amanda-faraco-soares.jpg?w=160&ssl=1 160w" sizes="(max-width: 160px) 100vw, 160px" data-recalc-dims="1" />
-  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Amanda Faraco Soares </figcaption></figure>
+  </div><figcaption class='wp-caption-text gallery-caption' id='gallery-5-373'> Amanda Faraco Soares  (Federal University of Rio Grande do Sul)</figcaption></figure>
 </div>
 
 <div id='gallery-18' class='gallery galleryid-31 gallery-columns-2 gallery-size-full'>

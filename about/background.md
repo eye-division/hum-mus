@@ -5,7 +5,7 @@ date: 2016-08-18T11:43:53+01:00
 author: support@eyedivision.com
 layout: page
 guid: http://www.hum-mus.org/?page_id=21
-permalink: "/en/about/background"
+permalink: "/en/about/background/"
 sidebar: "sidebar-about.html"
 ---
 Since the initiation of the World Health Organization (WHO) Healthy Cities movement over thirty years ago there have been increased efforts to understand how the urban environment affects health outcomes and can produce more equitable health benefits. A key concern is the way in which the physical fabric of cities affects urban mobility and how this relates to health and wellbeing.

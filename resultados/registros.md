@@ -1,11 +1,11 @@
 ---
-title: Publications
+title: Registros
 titleen: Publications
 titlept: Registros
 date: 2019-06-10T12:10:14+01:00
 author: support@eyedivision.com
 layout: page
-permalink: "/en/outputs/publications/"
+permalink: "/pt/resultados/registros/"
 sidebar: "sidebar-outputs.html"
 ---
 ## HUM Summary Documents

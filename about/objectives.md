@@ -1,6 +1,7 @@
 ---
 id: 23
 title: Objectives
+titlen: Objectives
 date: 2016-08-18T11:44:12+01:00
 author: support@eyedivision.com
 layout: page

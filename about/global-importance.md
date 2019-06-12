@@ -1,6 +1,7 @@
 ---
 id: 29
 title: Global importance
+titleen: Global importance
 date: 2016-08-18T11:45:49+01:00
 author: support@eyedivision.com
 layout: page

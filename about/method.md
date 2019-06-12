@@ -1,6 +1,7 @@
 ---
 id: 25
 title: Method
+titleen: Method
 date: 2016-08-18T11:44:33+01:00
 author: support@eyedivision.com
 layout: page

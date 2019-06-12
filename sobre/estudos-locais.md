@@ -1,6 +1,8 @@
 ---
 id: 91
 title: Áreas de estudo
+titleen: Case studies
+titlept: Áreas de estudo
 date: 2016-08-18T12:12:49+01:00
 author: support@eyedivision.com
 layout: page

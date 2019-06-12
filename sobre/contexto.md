@@ -1,10 +1,11 @@
 ---
 id: 87
 title: Contexto
+titleen: Background
+titlept: Contexto
 date: 2016-08-18T12:11:49+01:00
 author: support@eyedivision.com
 layout: page
-guid: http://www.hum-mus.org/?page_id=87
 permalink: "/pt/sobre/contexto/"
 sidebar: "sidebar-about.html"
 ---

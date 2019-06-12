@@ -2,6 +2,7 @@
 id: 89
 title: Método
 titleen: Method
+titlept: Método
 date: 2016-08-18T12:12:24+01:00
 author: support@eyedivision.com
 layout: page

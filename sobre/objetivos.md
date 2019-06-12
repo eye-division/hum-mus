@@ -1,6 +1,8 @@
 ---
 id: 95
 title: Objetivos
+titlept: Objetivos
+titleen: Objectives
 date: 2016-08-18T12:13:27+01:00
 author: support@eyedivision.com
 layout: page

@@ -8,9 +8,9 @@ guid: http://www.hum-mus.org/?page_id=27
 permalink: "/en/about/case-sites/"
 sidebar: "sidebar-about.html"
 ---
-The focus is three Brazilian cities and one UK city: Brasilia (Federal State), Florianopolis (State of Santa Catarina); Porto Alegre (State of Rio Grande do Sul) and Oxford (South of England). These vary in their spatial configuration and demographic characteristics and the challenges they are facing in relation to promoting healthy urban mobility and community wellbeing.
+The focus was on three Brazilian cities and one UK city: Brasilia (Federal State), Florianopolis (State of Santa Catarina); Porto Alegre (State of Rio Grande do Sul) and Oxford (South of England). These vary in their spatial configuration and demographic characteristics and the challenges they are facing in relation to promoting healthy urban mobility and community wellbeing..
 
-Click on the arrow below to browse the neighborhoods we&#8217;re studying.
+Click on the arrow below to browse the neighborhoods.
 
 <div class="googlemaps">
 </div>

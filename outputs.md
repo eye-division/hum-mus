@@ -13,4 +13,4 @@ sidebar: "sidebar-outputs.html"
 - [Summary documents](/en/outputs/publications/)
 
 ## Videos
-[Community video making](/en/outputs/videos/)
+[Community video making](/en/outputs/video/)

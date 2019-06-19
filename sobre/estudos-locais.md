@@ -10,12 +10,7 @@ guid: http://www.hum-mus.org/?page_id=91
 permalink: "/pt/sobre/estudos-locais/"
 sidebar: "sidebar-about.html"
 ---
-O trabalho se dará em três capitais brasileiras (Brasília – DF, Florianópolis – SC e Porto Alegre – RS) e uma cidade britânica (Oxford, no sul da Inglaterra). Essas foram as cidades escolhidas devido às suas diferentes características geográficas e demográficas e aos desafios que estão encarando na promoção da mobilidade urbana saudável.
-
-Para explorar as áreas de estudo, clique na seta abaixo.
-
-<div class="googlemaps">
-</div>
+O trabalho se deu em três capitais brasileiras (Brasília – DF, Florianópolis – SC e Porto Alegre – RS) e uma cidade britânica (Oxford, no sul da Inglaterra). Essas foram as cidades escolhidas devido às suas diferentes características geográficas e demográficas e aos desafios que estão encarando na promoção da mobilidade urbana saudável.
 
 **Brasília** (população: 2,5 milhões de pessoas): Capital do Brasil. 1º lugar no IDH (Índice de Desenvolvimento Humano) entre as cidades brasileiras. Divisão modal: A pé (24%), de bicicleta (2%), de transporte público (31%) e de carro particular (35%).
 

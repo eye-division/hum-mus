@@ -65,7 +65,12 @@
       subtitleen: Video
       subtitlept: Video
       href: /en/outputs/video/
-      hrefpt: /pt/resultados/video/
+      hrefpt: /en/outputs/video/
+    - subtitle: Reflections on the project
+      subtitleen: Reflections
+      subtitlept: Reflections
+      href: /en/outputs/video/reflections/
+      hrefpt: /en/outputs/video/reflections/
 - title: 'Contact'
   titleen: Contact
   titlept: Contato

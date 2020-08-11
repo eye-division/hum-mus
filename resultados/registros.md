@@ -11,7 +11,7 @@ sidebar: "sidebar-outputs.html"
 ## HUM Summary Documents
 
 <ul>
-    <li><a href="/assets/HUM_Summary_Report_Portugeuse_DIGITAL.pdf">Resumo dos principais resultados e recomendações</a> [PDF]</li>
+    <li><a href="/assets/HUM_Summary_Report_PT.pdf">Resumo dos principais resultados e recomendações</a> [PDF]</li>
 
     <li><a href="/assets/HUM_Barton_Summary_Report_DIGITAL.pdf">Summary of Key Findings and Community Priorities</a> [PDF], Barton, Oxford</li>
 

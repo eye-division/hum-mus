@@ -21,5 +21,6 @@ sidebar: "sidebar-outputs.html"
 </ul>
 
 ## Videos
+- [Barton Underpass Mural Project (BUMP)](/en/outputs/video/bump/)
 - [Community video making](/en/outputs/video/)
 - [Reflections on the project](/en/outputs/video/reflections/)
